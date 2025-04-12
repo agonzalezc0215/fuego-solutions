@@ -1,0 +1,38 @@
+.what-we-offer {
+    height: auto;
+    background-color: #FFF;
+    padding: 4.5rem;
+}
+
+.about-content p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.about-values {
+    margin-top: 3rem;
+}
+
+.about-values h2 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.about-values ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-values li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.about-values li::before {
+    content: '🔥';
+    position: absolute;
+    left: 0;
+}

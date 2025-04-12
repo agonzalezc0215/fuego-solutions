@@ -1,0 +1,45 @@
+.common-container {
+    min-height: 100vh;
+    background-color: #fae8d7;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.common-content {
+    height: auto;
+    background-color: #FFF;
+    padding: 4.5rem;
+}
+
+.common-header {
+    height: 56.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #FFF;
+    position: relative;
+    z-index: 1;
+    padding-left: 4rem;
+}
+
+.common-header>* {
+    z-index: 1;
+}
+
+.common-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 56.8vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.common-header h1 {
+    font-size: 4rem;
+}

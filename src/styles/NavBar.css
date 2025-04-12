@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px;
+    background: #1a1a1a;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.nav {
+    text-align: center;
+    padding: 1.75rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 100;
+    background: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav.scrolled {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    z-index: 1;
+}
+
+.nav a:hover {
+    color: #d03521;
+    /* Your hover effect */
+}
+
+.nav a.active {
+    color: #d03521;
+    padding-bottom: 1.5rem;
+    border-bottom: 4px solid #d03521;
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: flex-end;
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-toggle {
+        display: block;
+        padding: 0.5rem;
+        font-size: xx-large;
+        background: none;
+        border: none;
+        color: white;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #1a1a1a;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 1rem 0;
+    }
+
+    .nav.nav-open {
+        display: flex;
+    }
+
+    .nav a {
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+}
