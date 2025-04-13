@@ -33,7 +33,7 @@
 
 .dot {
     width: 10px;
-    height: 10px !important;
+    height: 12px;
     border-radius: 50%;
     background: #ccc;
     border: none;
@@ -42,9 +42,8 @@
 }
 
 .dot.active {
-    background: #e63946;
+    background: #d03521;
 }
-
 
 @media (max-width: 768px) {
     .carousel-container {
