@@ -329,6 +329,11 @@
 }
 
 @media (max-width: 768px) {
+    .home-container {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     .hero {
         padding: 0 1rem;
         flex-direction: column;
@@ -389,7 +394,6 @@
     .cta-form {
         padding: 4rem 1.5rem;
         border-radius: 0px;
-
     }
 
     .cta-text {
