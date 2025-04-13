@@ -55,10 +55,12 @@ const Home: React.FC = () => {
 					</h1>
 					<p>
 						At Fuego Solutions, we are committed to delivering excellence in
-						every project, ensuring your success in day-to-day operations. Our
-						expert team provides tailored solutions designed to meet your unique
-						needs. Join us on a journey of innovation, growth, and lasting
-						success.
+						every project, ensuring your success in day-to-day operations.
+					</p>
+					<p>
+						Our expert team provides tailored solutions designed to meet your
+						unique needs. Join us on a journey of innovation, growth, and
+						lasting success.
 					</p>
 					<p>Experience the Fuego Solutions difference today!</p>
 					<div className='hero-buttons'>

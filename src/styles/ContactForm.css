@@ -76,3 +76,9 @@ select:focus {
 .grid-display {
     display: grid;
 }
+
+@media (max-width: 768px) {
+    .contact-form h2 {
+        text-align: center;
+    }
+}

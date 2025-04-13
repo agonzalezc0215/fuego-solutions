@@ -50,4 +50,8 @@
     .carousel-container {
         margin-top: 1rem;
     }
+
+    .carousel-image-wrapper {
+        height: 300px;
+    }
 }
